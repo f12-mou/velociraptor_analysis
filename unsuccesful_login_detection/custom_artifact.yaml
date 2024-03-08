@@ -1,0 +1,10 @@
+name: Windows.System.FailedLoginAttempts
+parameters:
+  - name: securityLogFile
+    default: C:/Windows/System32/Winevt/Logs/Security.evtx
+sources:
+  - queries:
+     - SELECT EventData as FailedEventData,
+           System as FailedSystem
+       FROM watch_evtx(filename=securityLogFile)
+       WHERE System.EventID.Value = 4625
