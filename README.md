@@ -7,9 +7,7 @@ To run the codebase for custom artifacts and post-analysis, you may clone the re
 git clone https://github.com/f12-mou/velociraptor_analysis.git
 
 To run a single python file for post-analysis, one should rename the input file as input.csv and then run the following command:
-
-```markdown
-python3 domain_detection.py
+`python3 domain_detection.py`
 
 Thanks for reading!
 
