@@ -6,7 +6,3 @@ Thanks for reading!
 To run the codebase for custom artifacts and post-analysis, you may clone the repo:
 ```markdown
 git clone https://github.com/f12-mou/velociraptor_analysis.git
-
-
-
-
